@@ -1,2 +1,3 @@
-# SchoolFeeDashboard
-The application displays learner fee information from a hardcoded dataset.
+<<<<<<< HEAD
+
+>>>>>>> fd93f2c (Initial School Fee Dashboard)

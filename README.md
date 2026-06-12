@@ -1,16 +1,117 @@
-# React + Vite
+# 💳 School Fee Dashboard 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **school finance dashboard** built with React to help school administrators track learner fee payments, outstanding balances, and overdue accounts in real time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+> Add your deployed link here (Vercel / Netlify)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://your-live-link.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Overview
+
+This dashboard simulates a real-world **school finance management system** used by administrators to:
+
+- Monitor total fees collected
+- Track outstanding balances
+- Identify overdue learners
+- Search learners by name or grade
+- Export filtered financial data to CSV
+
+The goal of this project is to demonstrate **frontend engineering skills, UI design, and data handling in React**.
+
+---
+
+## Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Git & GitHub
+- Browser APIs (Blob for CSV export)
+
+---
+
+## Features
+
+### Financial Summary Dashboard
+- Total fees collected
+- Total outstanding fees
+- Number of overdue learners
+
+### Smart Search & Filtering
+- Filter learners by name
+- Filter learners by grade
+- Real-time table updates
+
+### Status Indicators
+- 🟢 Paid
+- 🟠 Unpaid
+- 🔴 Overdue
+
+### CSV Export
+- Export only visible filtered data
+- Download `.csv` file instantly
+
+### Responsive UI
+- Clean dashboard layout
+- Card-based summary section
+- Simple, readable table design
+
+---
+
+## Project Structure
+school-fee-dashboard/
+│── public/
+│── src/
+│ ├── App.jsx
+│ ├── main.jsx
+│ ├── index.css
+│── package.json
+│── README.md
+
+---
+
+## How to Run Locally
+
+### 1. Clone the repository
+
+`
+git clone https://github.com/your-username/school-fee-dashboard.git
+
+## Navigate into the project 
+cd school-fee-dashboard
+
+## Install Dependencies
+npm install
+
+## Start Development Server
+npm run dev
+
+## Open in Browser
+http://localhost:5173
+
+## Design Decisions
+-Used React functional components for simplicity and scalability
+-Managed UI state using useState
+-Used array methods (filter, reduce) for financial calculations
+-Implemented real-time filtering for better UX
+-Used native Blob API for CSV export (no external libraries)
+-Designed a clean dashboard layout inspired by fintech admin systems
+
+## Possible improvements
+-Add authentication (Admin login)
+-Connect to a backend (Node.js / Firebase)
+-Add charts (Revenue trends, monthly payments)
+-Add pagination for large datasets
+-Role-based access control (Teacher / Admin / Finance Officer)
+
+## Author
+Built by Thando Mngomezulu
+AI Engineer | Frontend Developer | UI/UX Enthusiast | Aspiring Software Engineer
+

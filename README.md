@@ -6,9 +6,7 @@ A modern, responsive **school finance dashboard** built with React to help schoo
 
 ## Live Demo
 
-> Add your deployed link here (Vercel / Netlify)
-
-https://your-live-link.vercel.app
+https://school-fee-dashboard.vercel.app/
 
 ---
 

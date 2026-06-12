@@ -112,6 +112,6 @@ http://localhost:5173
 - Role-based access control (Teacher / Admin / Finance Officer)
 
 ## Author
-Built by Thando Mngomezulu
-AI Engineer | Frontend Developer | UI/UX Enthusiast | Aspiring Software Engineer
+- Built by Thando Mngomezulu
+- AI Engineer | Frontend Developer | UI/UX Enthusiast | Aspiring Software Engineer
 

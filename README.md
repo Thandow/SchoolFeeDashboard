@@ -97,19 +97,19 @@ npm run dev
 http://localhost:5173
 
 ## Design Decisions
--Used React functional components for simplicity and scalability
--Managed UI state using useState
--Used array methods (filter, reduce) for financial calculations
--Implemented real-time filtering for better UX
--Used native Blob API for CSV export (no external libraries)
--Designed a clean dashboard layout inspired by fintech admin systems
+- Used React functional components for simplicity and scalability
+- Managed UI state using useState
+- Used array methods (filter, reduce) for financial calculations
+- Implemented real-time filtering for better UX
+- Used native Blob API for CSV export (no external libraries)
+- Designed a clean dashboard layout inspired by fintech admin systems
 
 ## Possible improvements
--Add authentication (Admin login)
--Connect to a backend (Node.js / Firebase)
--Add charts (Revenue trends, monthly payments)
--Add pagination for large datasets
--Role-based access control (Teacher / Admin / Finance Officer)
+- Add authentication (Admin login)
+- Connect to a backend (Node.js / Firebase)
+- Add charts (Revenue trends, monthly payments)
+- Add pagination for large datasets
+- Role-based access control (Teacher / Admin / Finance Officer)
 
 ## Author
 Built by Thando Mngomezulu

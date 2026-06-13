@@ -1,4 +1,5 @@
 -- Monthly payments per province for current year
+-- Approach: Aggregate payment amounts by province and month for the current calendar year.
 
 SELECT
   s.province,

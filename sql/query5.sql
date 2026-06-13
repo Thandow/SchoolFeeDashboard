@@ -1,4 +1,5 @@
 -- Users inactive for 30+ days or never logged in
+-- Approach: Filter users whose last login is older than 30 days or is NULL.
 
 SELECT
   u.email,

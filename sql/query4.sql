@@ -1,4 +1,5 @@
 -- Compare fees marked paid vs actual payments
+-- Approach: Compare the total value of paid fees with recorded payments and return mismatches.
 
 SELECT
   s.name AS school_name,

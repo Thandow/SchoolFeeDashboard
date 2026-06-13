@@ -1,4 +1,5 @@
 -- Active Gauteng schools ordered by newest
+-- Approach: Filter active schools in Gauteng and sort by creation date descending.
 
 SELECT
   name,

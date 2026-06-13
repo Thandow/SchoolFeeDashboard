@@ -1,4 +1,5 @@
 -- Overdue fee summary per school
+-- Approach: Join schools, learners, and fees to calculate overdue learners and total overdue amounts per school.
 
 SELECT
   s.name AS school_name,

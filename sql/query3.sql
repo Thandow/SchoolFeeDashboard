@@ -1,4 +1,5 @@
 -- Learners who have never made a payment
+-- Approach: Use a LEFT JOIN to identify learners with no matching payment records.
 
 SELECT
   l.name,

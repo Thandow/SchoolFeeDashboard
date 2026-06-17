@@ -79,8 +79,7 @@ school-fee-dashboard/
 
 ### 1. Clone the repository
 
-`
-git clone https://github.com/your-username/school-fee-dashboard.git
+https://github.com/Thandow/SchoolFeeDashboard.git
 
 ## Navigate into the project 
 cd school-fee-dashboard
